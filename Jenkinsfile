@@ -126,7 +126,7 @@ pipeline {
             echo "========================================="
             echo "BUILD SUCCESSFUL"
             echo "Application Deployed Successfully"
-            echo "Application URL : http://${SERVER}:8080"
+            echo "Application URL : http://${SERVER}:9898"
             echo "========================================="
         }
 
