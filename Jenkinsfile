@@ -99,7 +99,7 @@ pipeline {
                     docker run -d \
                         --name java-web-app \
                         --restart always \
-                        -p 8080:8080 \
+                        -p 9898:8080 \
                         ${REPOSITORY}:latest
 
                     docker ps
