@@ -1,9 +1,7 @@
 pipeline {
     agent any
 
-    tools {
-        maven 'Maven-3'
-    }
+
 
     environment {
         AWS_REGION = 'ap-south-1'
@@ -23,11 +21,15 @@ pipeline {
             }
         }
 
-        stage('Build WAR') {
-            steps {
-                sh 'mvn clean package'
-            }
-        }
+       stage('Build WAR') {
+        steps {
+        sh '''
+        java -version
+        mvn -version
+        mvn clean package
+        '''
+    }
+}
 
         stage('Verify WAR File') {
             steps {
