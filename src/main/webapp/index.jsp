@@ -111,7 +111,7 @@
 
   <header>
     <h1>🚀 APCLOTE-Learning</h1>
-    <p>Upgrade your career with our platporm</p>
+    <p>Upgrade your career with our platporm,fully AI Based</p>
   </header>
 
   <div class="container">
