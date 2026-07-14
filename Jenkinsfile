@@ -16,7 +16,7 @@ pipeline {
 
         stage('Checkout Source Code') {
             steps {
-                git branch: 'main',
+                git branch: 'master',
                     url: 'https://github.com/avadutpatil823/java-web-app.git'
             }
         }
