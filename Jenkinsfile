@@ -9,7 +9,7 @@ pipeline {
         IMAGE_NAME = 'springboot-app'
         IMAGE_TAG = "${BUILD_NUMBER}"
         REPOSITORY = "${ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com/${IMAGE_NAME}"
-        SERVER = '3.108.41.200'
+        SERVER = '13.207.239.166'
     }
 
     stages {
