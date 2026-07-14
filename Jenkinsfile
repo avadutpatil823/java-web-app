@@ -8,7 +8,7 @@ pipeline {
     environment {
         AWS_REGION = 'ap-south-1'
         ACCOUNT_ID = '042729137733'
-        IMAGE_NAME = 'java-web-app'
+        IMAGE_NAME = 'springboot-app'
         IMAGE_TAG = "${BUILD_NUMBER}"
         REPOSITORY = "${ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com/${IMAGE_NAME}"
         SERVER = '3.108.41.200'
